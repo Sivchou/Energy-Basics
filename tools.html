@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tools | SustainLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="resources.html">Resources</a>
+  <a href="tools.html">Tools</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section class="container">
+  <h1>Electricity Cost Calculator</h1>
+
+  <label>Monthly Energy Usage (kWh):</label><br>
+  <input type="number" id="usage"><br><br>
+
+  <label>Cost per kWh ($):</label><br>
+  <input type="number" step="0.01" id="cost"><br><br>
+
+  <button onclick="calculateCost()">Calculate</button>
+
+  <p id="result"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
